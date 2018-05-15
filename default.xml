@@ -16,11 +16,11 @@
   <project path="device/ampere" name="android_device_ampere" remote="ampere-github" revision="android-8.1.0_r23" />
 
   <!-- projects add by Ampere -->
-  <project path="external/mesa3d" name="" remote="android_external_mesa3d" remote="ampere-github" revision="android-8.1.0_r23" />
-  <project path="external/llvm" name="" remote="android_external_llvm" remote="ampere-github" revision="android-8.1.0_r23" />
-  <project path="external/libdrm" name="" remote="android_external_libdrm" remote="ampere-github" revision="android-8.1.0_r23" />
-  <project path="external/drm_hwcomposer" name="" remote="android_external_drm_hwcomposer" remote="ampere-github" revision="android-8.1.0_r23" />
-  <project path="external/gbm_gralloc" name="" remote="android_external_gbm_gralloc" remote="ampere-github" revision="android-8.1.0_r23" />  
+  <project path="external/mesa3d" name="android_external_mesa3d" remote="ampere-github" revision="android-8.1.0_r23" />
+  <project path="external/llvm" name="android_external_llvm" remote="ampere-github" revision="android-8.1.0_r23" />
+  <project path="external/libdrm" name="android_external_libdrm" remote="ampere-github" revision="android-8.1.0_r23" />
+  <project path="external/drm_hwcomposer" name="android_external_drm_hwcomposer" remote="ampere-github" revision="android-8.1.0_r23" />
+  <project path="external/gbm_gralloc" name="android_external_gbm_gralloc" remote="ampere-github" revision="android-8.1.0_r23" />  
 
   <project path="build/make" name="platform/build" groups="pdk" >
     <copyfile src="core/root.mk" dest="Makefile" />
