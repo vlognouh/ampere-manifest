@@ -2,10 +2,10 @@
 <manifest>
 
   <remote  name="aosp"
-           fetch=".."
+           fetch="https://android.googlesource.com/"
            review="https://android-review.googlesource.com/" />
   <remote  name="ampere-github"
-           fetch="git://github.com/vlognouh/" />
+           fetch="https://github.com/vlognouh/" />
   <default revision="refs/tags/android-8.1.0_r23"
            remote="aosp"
            sync-j="4" />
